@@ -1,0 +1,871 @@
+[08:49:30] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[08:49:31] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[08:49:31] [Server-Worker-14/INFO]: Loaded 7 recipes
+[08:49:34] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[08:49:34] [Server thread/INFO]: Loading properties
+[08:49:34] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: De ingang is ongeldig
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_241]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.DedicatedServer$1.run(DedicatedServer.java:66) ~[patched_1.16.3.jar:git-Paper-191]
+	Suppressed: java.io.IOException: De ingang is ongeldig
+		at java.io.FileInputStream.close0(Native Method) ~[?:1.8.0_241]
+		at java.io.FileInputStream.access$000(Unknown Source) ~[?:1.8.0_241]
+		at java.io.FileInputStream$1.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.FileDescriptor.closeAll(Unknown Source) ~[?:1.8.0_241]
+		at java.io.FileInputStream.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.BufferedInputStream.close(Unknown Source) ~[?:1.8.0_241]
+		at sun.nio.cs.StreamDecoder.implClose(Unknown Source) ~[?:1.8.0_241]
+		at sun.nio.cs.StreamDecoder.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.InputStreamReader.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.BufferedReader.close(Unknown Source) ~[?:1.8.0_241]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[patched_1.16.3.jar:git-Paper-191]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.16.3.jar:git-Paper-191]
+		at net.minecraft.server.v1_16_R2.DedicatedServer$1.run(DedicatedServer.java:66) ~[patched_1.16.3.jar:git-Paper-191]
+[08:49:34] [Server thread/INFO]: This server is running Paper version git-Paper-191 (MC: 1.16.3) (Implementing API version 1.16.3-R0.1-SNAPSHOT)
+[08:49:34] [Server thread/INFO]: Debug logging is disabled
+[08:49:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:49:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:49:34] [Server thread/INFO]: Default game type: SURVIVAL
+[08:49:34] [Server thread/INFO]: Generating keypair
+[08:49:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:49:34] [Server thread/INFO]: Using default channel type
+[08:49:36] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:49:40] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta3a-409 does not specify an api-version.
+[08:49:40] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta3a-409
+[08:49:40] [Server thread/INFO]: [dynmap] version=git-Paper-191 (MC: 1.16.3)
+[08:49:40] [Server thread/INFO]: [dynmap] Mod Support API available
+[08:49:40] [Server thread/INFO]: [FreeRPG] Loading FreeRPG v1.2.10
+[08:49:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:49:40] [Server thread/INFO]: Preparing level "world"
+[08:49:40] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:49:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:49:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:49:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:49:40] [Server thread/INFO]: View Distance: 10
+[08:49:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:49:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:49:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:49:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:49:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:49:40] [Server thread/INFO]: Mob Spawn Range: 8
+[08:49:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:49:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:49:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:49:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:49:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:49:40] [Server thread/INFO]: Max TNT Explosions: 100
+[08:49:41] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:49:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:49:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:49:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:49:41] [Server thread/INFO]: View Distance: 10
+[08:49:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:49:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:49:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:49:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:49:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:49:41] [Server thread/INFO]: Mob Spawn Range: 8
+[08:49:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:49:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:49:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:49:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:49:41] [Server thread/INFO]: Max TNT Explosions: 100
+[08:49:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:49:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:49:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:49:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:49:41] [Server thread/INFO]: View Distance: 10
+[08:49:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:49:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:49:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:49:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:49:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:49:41] [Server thread/INFO]: Mob Spawn Range: 8
+[08:49:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:49:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:49:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:49:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:49:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:49:41] [Server thread/INFO]: Max TNT Explosions: 100
+[08:49:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:49:41] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[08:49:41] [Server thread/INFO]: Preparing spawn area: 0%
+[08:49:41] [Server thread/INFO]: Time elapsed: 371 ms
+[08:49:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:49:41] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[08:49:41] [Server thread/INFO]: Time elapsed: 89 ms
+[08:49:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:49:41] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[08:49:41] [Server thread/INFO]: Time elapsed: 111 ms
+[08:49:41] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta3a-409*
+[08:49:42] [Server thread/ERROR]: Error occurred while enabling dynmap v3.1-beta3a-409 (Is it up to date?)
+java.lang.NoSuchMethodError: net.minecraft.server.v1_16_R2.MinecraftServer.aX()Lnet/minecraft/server/v1_16_R2/IRegistryCustom;
+	at org.dynmap.bukkit.helper.v116_2.BukkitVersionHelperSpigot116_2.getBiomeReg(BukkitVersionHelperSpigot116_2.java:70) ~[?:?]
+	at org.dynmap.bukkit.helper.v116_2.BukkitVersionHelperSpigot116_2.getBiomeBaseList(BukkitVersionHelperSpigot116_2.java:84) ~[?:?]
+	at org.dynmap.bukkit.DynmapPlugin.loadExtraBiomes(DynmapPlugin.java:781) ~[?:?]
+	at org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:856) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:499) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:413) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:468) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:241) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:939) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[08:49:42] [Server thread/INFO]: [dynmap] Disabling dynmap v3.1-beta3a-409
+[08:49:42] [Server thread/ERROR]: Error occurred while disabling dynmap v3.1-beta3a-409 (Is it up to date?)
+java.lang.NullPointerException: null
+	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:998) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:415) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:516) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:384) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:499) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:413) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:468) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:241) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:939) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[08:49:42] [Server thread/INFO]: [FreeRPG] Enabling FreeRPG v1.2.10
+[08:49:42] [Server thread/WARN]: [FreeRPG] Could not save languages.yml to plugins\FreeRPG\languages.yml because languages.yml already exists.
+[08:49:43] [Server thread/INFO]: Running delayed init tasks
+[08:49:43] [Server thread/INFO]: Done (8.915s)! For help, type "help"
+[08:49:43] [Server thread/INFO]: Timings Reset
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [24, 22] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [26, 18] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [26, 19] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [26, 20] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [26, 21] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [28, 15] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [29, 15] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [29, 16] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [28, 17] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [30, 17] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [27, 18] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [27, 19] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [30, 19] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [27, 20] is allocated, but stream is missing
+[08:49:48] [Paper RegionFile IO Thread/WARN]: Chunk [30, 20] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [30, 21] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [27, 22] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [28, 22] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [29, 22] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [20, 23] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [22, 23] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [28, 23] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [30, 23] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [19, 24] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [25, 24] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [30, 24] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [31, 24] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [25, 25] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [29, 25] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [30, 25] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [20, 26] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [24, 26] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [31, 26] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [17, 27] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [18, 27] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [20, 27] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [21, 27] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [24, 27] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [25, 27] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [27, 27] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [18, 28] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [19, 28] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [20, 28] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [31, 28] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [19, 29] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [22, 29] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [27, 29] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [29, 29] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [30, 29] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [17, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [19, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [22, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [25, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [26, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [27, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [28, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [29, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [30, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [31, 30] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [27, 10] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [29, 10] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [31, 11] is allocated, but stream is missing
+[08:49:49] [Paper RegionFile IO Thread/WARN]: Chunk [28, 13] is allocated, but stream is missing
+[13:02:54] [User Authenticator #1/INFO]: UUID of player ITGNandiii is 74183ba1-baf3-4f88-bfa5-65ee82f8be03
+[13:02:54] [Server thread/INFO]: ITGNandiii joined the game
+[13:02:54] [Server thread/INFO]: ITGNandiii[/83.81.198.110:50064] logged in with entity id 720 at ([world]206.75439216560196, 64.9375, 65.4310957165251)
+[13:04:02] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[13:04:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[13:06:45] [Server thread/INFO]: ITGNandiii lost connection: Disconnected
+[13:06:45] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[13:06:45] [Server thread/INFO]: ITGNandiii left the game
+[14:40:26] [User Authenticator #2/INFO]: UUID of player ITGNandiii is 74183ba1-baf3-4f88-bfa5-65ee82f8be03
+[14:40:26] [Server thread/INFO]: ITGNandiii joined the game
+[14:40:26] [Server thread/INFO]: ITGNandiii[/83.81.198.110:52082] logged in with entity id 1452 at ([world]188.8014733933129, 63.5, 69.12696311874399)
+[14:49:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[14:58:33] [Server thread/INFO]: ITGNandiii has made the advancement [What a Deal!]
+[14:58:58] [User Authenticator #3/INFO]: UUID of player Hidvdmcraft is 5594a91f-605d-4532-814e-8a08476668b2
+[14:58:58] [Server thread/INFO]: Hidvdmcraft joined the game
+[14:58:59] [Server thread/INFO]: Hidvdmcraft[/87.209.132.15:56135] logged in with entity id 3256 at ([world]237.72009064331175, 65.0, -1.4715863670283245)
+[14:59:12] [Async Chat Thread - #0/INFO]: <Hidvdmcraft> faka strijder van een andere eileider
+[14:59:27] [Async Chat Thread - #0/INFO]: <ITGNandiii> ewa skank van een andere shank
+[15:00:08] [Async Chat Thread - #0/INFO]: <ITGNandiii> mooie osso
+[15:00:13] [Async Chat Thread - #0/INFO]: <Hidvdmcraft> ty ty
+[15:00:27] [Async Chat Thread - #0/INFO]: <ITGNandiii> ik ga zo jungle zoeken denk
+[15:00:35] [Async Chat Thread - #0/INFO]: <ITGNandiii> voor zo'n temple
+[15:00:44] [Async Chat Thread - #0/INFO]: <Hidvdmcraft> als je er 1 vind neem saplings mee aub
+[15:02:36] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[15:04:27] [Async Chat Thread - #1/INFO]: <ITGNandiii> ik ga een jungle zoeken
+[15:04:37] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[15:04:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[15:04:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[15:07:50] [Async Chat Thread - #2/INFO]: <ITGNandiii> bruh
+[15:07:59] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[15:08:01] [Async Chat Thread - #2/INFO]: <Hidvdmcraft> give me your socks
+[15:08:11] [Async Chat Thread - #2/INFO]: <ITGNandiii> geef me 3 sec
+[15:08:16] [Async Chat Thread - #2/INFO]: <ITGNandiii> fixed
+[15:08:21] [Async Chat Thread - #2/INFO]: <Hidvdmcraft> hier, mn zaad
+[15:08:52] [Async Chat Thread - #2/INFO]: <ITGNandiii> ga slapen
+[15:08:56] [Async Chat Thread - #2/INFO]: <Hidvdmcraft> 1 sec
+[15:09:02] [Server thread/INFO]: Hidvdmcraft has made the advancement [The Parrots and the Bats]
+[15:09:09] [Async Chat Thread - #2/INFO]: <ITGNandiii> OwO
+[15:10:06] [Server thread/INFO]: Hidvdmcraft lost connection: Disconnected
+[15:10:06] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[15:10:06] [Server thread/INFO]: Hidvdmcraft left the game
+[15:10:15] [User Authenticator #4/INFO]: UUID of player LilliePadd is 7aff5ea7-7741-4c00-8777-9bd06ad0d704
+[15:10:15] [Server thread/INFO]: LilliePadd joined the game
+[15:10:15] [Server thread/INFO]: LilliePadd[/145.137.54.222:51528] logged in with entity id 5220 at ([world]209.3429993022087, 64.0, 44.723705393274486)
+[15:10:21] [Async Chat Thread - #3/INFO]: <LilliePadd> ewa
+[15:10:23] [Async Chat Thread - #3/INFO]: <ITGNandiii> ola
+[15:11:02] [Async Chat Thread - #3/INFO]: <LilliePadd> ik zit op school
+[15:11:11] [Async Chat Thread - #3/INFO]: <ITGNandiii> ga opletten
+[15:11:12] [Async Chat Thread - #3/INFO]: <LilliePadd> dus ik moet wss zo weer loesoe
+[15:11:15] [Async Chat Thread - #3/INFO]: <LilliePadd> hoef niets te doen
+[15:11:16] [Server thread/INFO]: LilliePadd lost connection: Disconnected
+[15:11:16] [Server thread/INFO]: [FreeRPG] Saved LilliePadd stats successfully
+[15:11:16] [Server thread/INFO]: LilliePadd left the game
+[15:13:36] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[15:19:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[15:21:00] [Async Chat Thread - #4/INFO]: <ITGNandiii> als het dag word ga ik zoeke
+[15:28:38] [Server thread/WARN]: Boat (vehicle of ITGNandiii) moved wrongly! 0.2716267030417612
+[15:28:38] [Server thread/WARN]: Boat (vehicle of ITGNandiii) moved wrongly! 0.28722733327117567
+[15:28:39] [Server thread/WARN]: Boat (vehicle of ITGNandiii) moved wrongly! 0.251123739670561
+[15:28:39] [Server thread/WARN]: Boat (vehicle of ITGNandiii) moved wrongly! 0.261270808163772
+[15:34:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[15:45:54] [Server thread/INFO]: ITGNandiii has made the advancement [Best Friends Forever]
+[15:49:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[16:04:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[16:15:34] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[16:18:41] [User Authenticator #5/INFO]: UUID of player Hidvdmcraft is 5594a91f-605d-4532-814e-8a08476668b2
+[16:18:41] [Server thread/INFO]: Hidvdmcraft joined the game
+[16:18:41] [Server thread/INFO]: Hidvdmcraft[/87.209.132.15:51596] logged in with entity id 19376 at ([world]238.02943927533696, 65.0, -8.629373434171706)
+[16:18:56] [Async Chat Thread - #5/INFO]: <Hidvdmcraft> ik zit in teams jwz
+[16:19:06] [Async Chat Thread - #5/INFO]: <ITGNandiii> ja tog
+[16:19:09] [Async Chat Thread - #5/INFO]: <ITGNandiii> ik heb een parror
+[16:19:11] [Async Chat Thread - #5/INFO]: <ITGNandiii> parrot
+[16:19:14] [Async Chat Thread - #5/INFO]: <Hidvdmcraft> ziek
+[16:19:40] [Async Chat Thread - #5/INFO]: <ITGNandiii> ben nu beetje aant vissen todat het licht word
+[16:19:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[16:19:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[16:23:00] [User Authenticator #6/INFO]: UUID of player LilliePadd is 7aff5ea7-7741-4c00-8777-9bd06ad0d704
+[16:23:00] [Server thread/INFO]: LilliePadd joined the game
+[16:23:00] [Server thread/INFO]: LilliePadd[/145.137.54.222:53166] logged in with entity id 20476 at ([world]218.42325552733178, 64.5, 46.73416568961669)
+[16:23:20] [Async Chat Thread - #6/INFO]: <LilliePadd> Hey call me Miku Miku
+[16:23:26] [Async Chat Thread - #6/INFO]: <LilliePadd> uuuuuwiiiiiiuuuuuw
+[16:23:37] [Async Chat Thread - #6/INFO]: <ITGNandiii> dr was zo'n broken nether portal in de jungle
+[16:23:40] [Server thread/INFO]: [Server] aids
+[16:23:43] [Server thread/INFO]: [Server] kroket
+[16:24:20] [Async Chat Thread - #6/INFO]: <LilliePadd> jayson check dm
+[16:24:50] [Server thread/INFO]: LilliePadd issued server command: /freeRPG
+[16:24:50] [Async Chat Thread - #6/INFO]: <ITGNandiii> ben nog steeds naar een mansion aan het zoeken
+[16:25:02] [Async Chat Thread - #6/INFO]: <LilliePadd> Gaan we totems dupen?
+[16:25:17] [Async Chat Thread - #6/INFO]: <ITGNandiii> als je weet hoe het moet
+[16:25:28] [Async Chat Thread - #6/INFO]: <Hidvdmcraft> je kan zon map gebruiken toch
+[16:25:32] [Async Chat Thread - #6/INFO]: <LilliePadd> petition to downgrade the server to 1.12.2
+[16:25:37] [Async Chat Thread - #6/INFO]: <LilliePadd> Eyes Emoji
+[16:25:49] [Async Chat Thread - #6/INFO]: <ITGNandiii> moet ik wel eerst een mansion vinden want deze jungle is kanker groot
+[16:25:59] [Async Chat Thread - #6/INFO]: <LilliePadd> Mansion zit in dark oak
+[16:26:00] [Async Chat Thread - #6/INFO]: <LilliePadd> niet jungle
+[16:26:03] [Async Chat Thread - #6/INFO]: <ITGNandiii> oh
+[16:26:06] [Async Chat Thread - #6/INFO]: <LilliePadd> En we hebben de seed
+[16:26:08] [Async Chat Thread - #6/INFO]: <LilliePadd> dus is ez
+[16:26:10] [Async Chat Thread - #6/INFO]: <ITGNandiii> dan maar een temple i guess
+[16:26:18] [Server thread/INFO]: [Server] don't move
+[16:26:22] [Async Chat Thread - #6/INFO]: <Hidvdmcraft> haha
+[16:26:27] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:26:30] [Async Chat Thread - #6/INFO]: <LilliePadd> ?
+[16:26:46] [Server thread/INFO]: [Server] imma switch it off so i can copy it and send it to you lil
+[16:26:47] [Async Chat Thread - #6/INFO]: <ITGNandiii> doe je sokken uit
+[16:26:57] [Server thread/INFO]: [Server] er is geen minimap doe je sokken uit
+[16:26:58] [Async Chat Thread - #6/INFO]: <LilliePadd> je kan ook de files kopiëren
+[16:27:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:27:44] [Server thread/INFO]: [Server] ye i know but it was more of a warning so you don't lose progress too much
+[16:27:56] [Async Chat Thread - #6/INFO]: <ITGNandiii> moet ik stil gaan staan?
+[16:28:06] [Async Chat Thread - #6/INFO]: <LilliePadd> oh wacht
+[16:28:09] [Async Chat Thread - #6/INFO]: <LilliePadd> doe maar later
+[16:28:29] [Server thread/INFO]: [Server] WHAT DO YOU WANT WOMAN
+[16:28:34] [Async Chat Thread - #6/INFO]: <Hidvdmcraft> geef me je eieren, en doe je sokken uit
+[16:28:35] [Async Chat Thread - #6/INFO]: <ITGNandiii> drugs
+[16:28:40] [Async Chat Thread - #6/INFO]: <LilliePadd> Max gaat server hosting overnemen totdat ik mijn server heb
+[16:28:43] [Async Chat Thread - #6/INFO]: <LilliePadd> Heb er al 1 op oog
+[16:28:47] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:28:48] [Async Chat Thread - #6/INFO]: <LilliePadd> van Tweakers
+[16:29:00] [Server thread/INFO]: [Server] naisu
+[16:29:05] [Async Chat Thread - #6/INFO]: <ITGNandiii> jayson
+[16:29:06] [Server thread/INFO]: [Server] gooi specs habibi
+[16:29:09] [Async Chat Thread - #6/INFO]: <ITGNandiii> of ik bedoel jezus
+[16:29:15] [Server thread/INFO]: [Server] ye
+[16:29:18] [Async Chat Thread - #6/INFO]: <LilliePadd> ik krijg echt hoofdpijn van de signs
+[16:29:21] [Async Chat Thread - #6/INFO]: <ITGNandiii> laat drugs vallen
+[16:29:23] [Server thread/INFO]: [Server] lmao
+[16:29:38] [Server thread/INFO]: Unknown item 'minecraft:1'
+[16:29:38] [Server thread/INFO]: ...tgnandiii 1 sugar<--[HERE]
+[16:29:54] [Async Chat Thread - #6/INFO]: <LilliePadd> cum
+[16:29:57] [Async Chat Thread - #6/INFO]: <ITGNandiii> temple gevonden
+[16:29:59] [Async Chat Thread - #6/INFO]: <ITGNandiii> EINDELIjk
+[16:30:01] [Async Chat Thread - #6/INFO]: <LilliePadd> dus vanavond weer onder ons?
+[16:30:36] [Async Chat Thread - #6/INFO]: <LilliePadd> waarom is mijn agility gereset?
+[16:30:36] [Async Chat Thread - #6/INFO]: <ITGNandiii> jungle temple heeft traps toch?
+[16:30:36] [Async Chat Thread - #6/INFO]: <Hidvdmcraft> give me your eggs
+[16:30:39] [Async Chat Thread - #6/INFO]: <LilliePadd> ye
+[16:30:42] [Async Chat Thread - #6/INFO]: <ITGNandiii> oke
+[16:31:01] [Async Chat Thread - #6/INFO]: <LilliePadd> k-pop stan
+[16:31:07] [Async Chat Thread - #6/INFO]: <LilliePadd> K-pop stans unite
+[16:31:16] [Async Chat Thread - #6/INFO]: <ITGNandiii> SKSKSKSKSKSKSKSKSK
+[16:31:20] [Async Chat Thread - #6/INFO]: <LilliePadd> bang bang bang
+[16:31:33] [Async Chat Thread - #6/INFO]: <LilliePadd> ik krijg echt hoofdpijn van mijn huis
+[16:32:02] [Server thread/INFO]: [Server] psy is bae
+[16:32:29] [Server thread/INFO]: [Server] junglecock
+[16:32:36] [Async Chat Thread - #7/INFO]: <ITGNandiii> SKSKSKSKSKSKSK
+[16:32:52] [Async Chat Thread - #7/INFO]: <LilliePadd> Ga slapen
+[16:32:58] [Async Chat Thread - #7/INFO]: <ITGNandiii> ik kan niet slapen
+[16:33:44] [Server thread/INFO]: Unknown item 'minecraft:sug'
+[16:33:44] [Server thread/INFO]: ...tgnandiii sug{display:{Name:'[{"text":"dikke keta","italic":false}]',Lore:['[{"text":"Deze snuiven we met de drerries a sahbe","italic":false}]']}} 3<--[HERE]
+[16:33:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:34:14] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[16:34:32] [Async Chat Thread - #8/INFO]: <LilliePadd> Ik ga je in slaap slaan
+[16:34:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[16:34:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[16:34:43] [Server thread/INFO]: [FreeRPG] Saved LilliePadd stats successfully
+[16:35:12] [Server thread/INFO]: [Server] nandii wil je keta
+[16:35:15] [Async Chat Thread - #8/INFO]: <ITGNandiii> ja
+[16:35:18] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:35:20] [Server thread/INFO]: [Server] omw
+[16:35:24] [Async Chat Thread - #8/INFO]: <ITGNandiii> o god
+[16:35:29] [User Authenticator #7/INFO]: UUID of player FirefoxSr is e6fcf293-2b55-4914-a4b2-a3921c244309
+[16:35:29] [Server thread/INFO]: FirefoxSr joined the game
+[16:35:29] [Server thread/INFO]: FirefoxSr[/127.0.0.1:56841] logged in with entity id 24215 at ([world]224.85748665013145, 65.0, 47.57969843826374)
+[16:35:35] [Async Chat Thread - #8/INFO]: <LilliePadd> kijk uit
+[16:35:37] [Async Chat Thread - #8/INFO]: <LilliePadd> creeper buiten
+[16:35:38] [Async Chat Thread - #8/INFO]: <FirefoxSr> hello
+[16:35:40] [Async Chat Thread - #8/INFO]: <ITGNandiii> hoe werkt die temple puzzle?
+[16:35:43] [Async Chat Thread - #8/INFO]: <ITGNandiii> met de levers
+[16:35:47] [Server thread/INFO]: LilliePadd issued server command: /time set day
+[16:35:47] [Server thread/INFO]: [LilliePadd: Set the time to 1000]
+[16:35:51] [Server thread/INFO]: FirefoxSr issued server command: /give itgnandiii sug{display:{Name:'[{"text":"dikke keta","italic":false}]',Lore:['[{"text":"Deze snuiven we met de drerries a sahbe","italic":false}]']}} 3
+[16:35:59] [Server thread/INFO]: Made FirefoxSr a server operator
+[16:36:04] [Server thread/INFO]: FirefoxSr issued server command: /give itgnandiii sug{display:{Name:'[{"text":"dikke keta","italic":false}]',Lore:['[{"text":"Deze snuiven we met de drerries a sahbe","italic":false}]']}} 3
+[16:36:10] [Async Chat Thread - #8/INFO]: <LilliePadd> oke dat was cheaten
+[16:36:14] [Server thread/INFO]: LilliePadd issued server command: /time set night
+[16:36:14] [Server thread/INFO]: [LilliePadd: Set the time to 13000]
+[16:37:08] [Async Chat Thread - #8/INFO]: <LilliePadd> waarom heeft school wifi betere ping
+[16:37:09] [Server thread/INFO]: FirefoxSr issued server command: /give itgnandiii sugar{display:{Name:'[{"text":"dikke keta","italic":false}]',Lore:['[{"text":"Deze snuiven we met de drerries a","italic":false}]','[{"text":"sahbe","italic":false}]']}} 1
+[16:37:09] [Server thread/INFO]: [FirefoxSr: Gave 1 [dikke keta] to ITGNandiii]
+[16:37:22] [Async Chat Thread - #8/INFO]: <FirefoxSr> nandii check je inv
+[16:37:35] [Async Chat Thread - #8/INFO]: <ITGNandiii> A SAHBE
+[16:37:49] [Async Chat Thread - #8/INFO]: <FirefoxSr> i will now retreat into the darkness
+[16:37:50] [Server thread/INFO]: FirefoxSr lost connection: Disconnected
+[16:37:50] [Server thread/INFO]: [FreeRPG] Saved FirefoxSr stats successfully
+[16:37:50] [Server thread/INFO]: FirefoxSr left the game
+[16:37:52] [Async Chat Thread - #8/INFO]: <LilliePadd> Jayson
+[16:37:56] [Async Chat Thread - #8/INFO]: <LilliePadd> servertje wss
+[16:37:57] [Server thread/INFO]: [Server] ye
+[16:37:59] [Async Chat Thread - #8/INFO]: <LilliePadd> 12 cores
+[16:38:01] [Async Chat Thread - #8/INFO]: <LilliePadd> 36GB ram
+[16:38:02] [Async Chat Thread - #8/INFO]: <ITGNandiii> can i order a travis scott burger?
+[16:38:04] [Async Chat Thread - #8/INFO]: <LilliePadd> 250
+[16:38:07] [Server thread/INFO]: [Server] what the fuck
+[16:38:11] [Async Chat Thread - #8/INFO]: <LilliePadd> is used
+[16:38:19] [Server thread/INFO]: [Server] duo money zeker
+[16:38:21] [Async Chat Thread - #8/INFO]: <LilliePadd> met 240GB aan story
+[16:38:25] [Async Chat Thread - #8/INFO]: <LilliePadd> storage
+[16:38:28] [Async Chat Thread - #8/INFO]: <LilliePadd> nee appie stacks
+[16:38:33] [Server thread/INFO]: [Server] hode
+[16:38:45] [Async Chat Thread - #8/INFO]: <LilliePadd> maar wordt wss volgende week
+[16:38:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:38:54] [Server thread/INFO]: [Server] gekke shit
+[16:39:07] [Server thread/INFO]: [Server] amd of intel
+[16:39:11] [Async Chat Thread - #8/INFO]: <LilliePadd> intel
+[16:39:12] [Async Chat Thread - #8/INFO]: <LilliePadd> xeon
+[16:39:17] [Server thread/INFO]: [Server] hell ye
+[16:39:24] [Async Chat Thread - #8/INFO]: <LilliePadd> dus als ie er volgende week nog staat
+[16:39:28] [Async Chat Thread - #8/INFO]: <LilliePadd> Wordt het feest
+[16:39:28] [Server thread/INFO]: [Server] that's pretty good for that price
+[16:39:33] [Server thread/INFO]: [Server] waar stond ie dan
+[16:39:34] [Async Chat Thread - #8/INFO]: <LilliePadd> ja is server hardware
+[16:39:37] [Async Chat Thread - #8/INFO]: <LilliePadd> tweakers
+[16:39:41] [Server thread/INFO]: [Server] oja
+[16:39:42] [Server thread/INFO]: Hidvdmcraft has made the advancement [Take Aim]
+[16:39:45] [Async Chat Thread - #8/INFO]: <LilliePadd> used server hardware is fucking goedkoop
+[16:40:06] [Async Chat Thread - #8/INFO]: <LilliePadd> En Max helpt
+[16:40:13] [Async Chat Thread - #8/INFO]: <LilliePadd> kijken dat het een beetje value hardware is
+[16:40:35] [Server thread/INFO]: LilliePadd lost connection: Disconnected
+[16:40:35] [Server thread/INFO]: [FreeRPG] Saved LilliePadd stats successfully
+[16:40:35] [Server thread/INFO]: LilliePadd left the game
+[16:49:43] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[16:49:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[16:52:11] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[16:52:14] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.a(MinecraftServer.java:1264) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:999) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[16:56:47] [Server thread/INFO]: ITGNandiii lost connection: Disconnected
+[16:56:47] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[16:56:47] [Server thread/INFO]: ITGNandiii left the game
+[16:56:50] [User Authenticator #8/INFO]: UUID of player ITGNandiii is 74183ba1-baf3-4f88-bfa5-65ee82f8be03
+[16:56:50] [Server thread/INFO]: ITGNandiii joined the game
+[16:56:50] [Server thread/INFO]: ITGNandiii[/83.81.198.110:54235] logged in with entity id 28869 at ([world]2235.653061447693, 71.0, 1846.7689512471015)
+[16:56:59] [Server thread/INFO]: ITGNandiii lost connection: Disconnected
+[16:56:59] [Server thread/INFO]: [FreeRPG] Saved ITGNandiii stats successfully
+[16:56:59] [Server thread/INFO]: ITGNandiii left the game
+[16:59:41] [Server thread/INFO]: Hidvdmcraft lost connection: Disconnected
+[16:59:41] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[16:59:41] [Server thread/INFO]: Hidvdmcraft left the game
+[17:44:00] [User Authenticator #9/INFO]: UUID of player Hidvdmcraft is 5594a91f-605d-4532-814e-8a08476668b2
+[17:44:00] [Server thread/INFO]: Hidvdmcraft joined the game
+[17:44:00] [Server thread/INFO]: Hidvdmcraft[/87.209.132.15:62370] logged in with entity id 29324 at ([world]242.78533106342405, 65.0, -8.594337127366265)
+[17:49:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[17:56:07] [Server thread/INFO]: Hidvdmcraft lost connection: Disconnected
+[17:56:07] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[17:56:07] [Server thread/INFO]: Hidvdmcraft left the game
+[18:34:52] [User Authenticator #10/INFO]: UUID of player Hidvdmcraft is 5594a91f-605d-4532-814e-8a08476668b2
+[18:34:52] [Server thread/INFO]: Hidvdmcraft joined the game
+[18:34:52] [Server thread/INFO]: Hidvdmcraft[/87.209.132.15:65201] logged in with entity id 30605 at ([world]207.39666063851428, 74.0, 160.54261475569803)
+[18:49:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[18:53:16] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[19:04:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[19:19:43] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[19:30:01] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[19:34:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[19:45:19] [User Authenticator #11/INFO]: UUID of player LilliePadd is 7aff5ea7-7741-4c00-8777-9bd06ad0d704
+[19:45:19] [Server thread/INFO]: LilliePadd joined the game
+[19:45:20] [Server thread/INFO]: LilliePadd[/178.85.159.220:50498] logged in with entity id 37472 at ([world]226.38864945111783, 65.0, 44.34801541711572)
+[19:45:28] [Async Chat Thread - #9/INFO]: <LilliePadd> hey man
+[19:45:55] [Server thread/INFO]: LilliePadd lost connection: Disconnected
+[19:45:55] [Server thread/INFO]: [FreeRPG] Saved LilliePadd stats successfully
+[19:45:55] [Server thread/INFO]: LilliePadd left the game
+[19:49:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[19:52:22] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[20:02:07] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[20:04:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[20:19:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[20:34:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[20:49:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[20:52:31] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[20:52:50] [Server thread/ERROR]: Could not pass event CraftItemEvent to FreeRPG v1.2.10
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at mc.carlton.freerpg.miscEvents.PlayerCraft.onPlayerCraft(PlayerCraft.java:52) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.16.3.jar:git-Paper-191]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.16.3.jar:git-Paper-191]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnection.a(PlayerConnection.java:2427) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:32) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.TickTask.run(SourceFile:18) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.ba(MinecraftServer.java:1135) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.executeNext(MinecraftServer.java:1128) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.sleepForTick(MinecraftServer.java:1089) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:1003) ~[patched_1.16.3.jar:git-Paper-191]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.3.jar:git-Paper-191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[21:04:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[21:07:52] [Server thread/INFO]: Hidvdmcraft lost connection: Disconnected
+[21:07:52] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[21:07:52] [Server thread/INFO]: Hidvdmcraft left the game
+[21:11:31] [User Authenticator #12/INFO]: UUID of player Hidvdmcraft is 5594a91f-605d-4532-814e-8a08476668b2
+[21:11:31] [Server thread/INFO]: Hidvdmcraft joined the game
+[21:11:31] [Server thread/INFO]: Hidvdmcraft[/87.209.132.15:64233] logged in with entity id 46219 at ([world]237.81489942998155, 65.0, -4.5106459443044935)
+[21:19:43] [Server thread/INFO]: [Server] server is going to be off for some time
+[21:19:44] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[21:19:57] [Server thread/INFO]: Stopping the server
+[21:19:57] [Server thread/INFO]: Stopping server
+[21:19:57] [Server thread/INFO]: [FreeRPG] Disabling FreeRPG v1.2.10
+[21:19:57] [Server thread/INFO]: [FreeRPG] Saved Hidvdmcraft stats successfully
+[21:19:57] [Server thread/INFO]: Saving players
+[21:19:57] [Server thread/INFO]: Hidvdmcraft lost connection: Server closed
+[21:19:57] [Server thread/INFO]: Hidvdmcraft left the game
+[21:19:57] [Server thread/INFO]: Saving worlds
+[21:19:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:19:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:19:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:19:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:20:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:20:01] [Server thread/INFO]: Flushing Chunk IO
+[21:20:01] [Server thread/INFO]: Closing Thread Pool
+[21:20:01] [Server thread/INFO]: Closing Server
